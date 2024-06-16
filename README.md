@@ -27,7 +27,7 @@ ja-netfilter是由知了大佬开发的Java代理工具，可用于激活Jet Bra
 为什么现有方法仅能做到临时激活呢？通过抓包，我发现JetBrains系软件在启动时会访问Amazon CloudFront，即亚马逊的CDN服务器，之后软件便会提示激活码无效。由此猜测该服务器大概率用于验证激活码是否有效（包括是否被滥用、是否被封禁）。 在参考MoYuno大佬对ja-netfilter原理讲解的文章后，我对原有ja-netfilter的配置进行了一些修改，以屏蔽访问验证服务器，达到永久激活。
 
 1. 安装好某JetBrains系软件，不要激活。若之前激活过，请删除上文中提到的两个目录。
-2. 下载本仓库中的所有文件，并解压放到自定义目录下。
+2. 下载本仓库[Releases](https://github.com/v-JiangNan/ja-netfilter-modified/releases)中的文件，并解压放到自定义目录下。
 3. 打开scripts目录，**Windows**用户推荐运行**install-current-user.vbs**，完成后会有弹窗提示；**Linux**用户运行**install.sh**。
 4. 打开软件，选择Activation code激活方式，复制**Activation code.txt**中的激活码，完成激活。
 
