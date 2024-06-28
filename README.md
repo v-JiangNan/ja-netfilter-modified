@@ -17,9 +17,15 @@ ja-netfilter是由知了大佬开发的Java代理工具，可用于激活Jet Bra
 ### 原有的方法
 
 使用网上公开的激活码，再配合ja-netfilter可以做到**临时激活**，有时重新打开软件或隔一段时间打开就会弹出激活码失效的提示，此时要想重新临时激活，需要删除下面的两个目录：
+- Windows
 ```
 %userprofile%\AppData\Local\JetBrains
 %userprofile%\AppData\Roaming\JetBrains
+```
+- Linux
+```
+~/.config/JetBrains
+~/.cache/JetBrains
 ```
 然后重复之前的激活步骤即可，此处不做过多讲解。
 
