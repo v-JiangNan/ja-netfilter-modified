@@ -1,4 +1,9 @@
 # [ja-netfilter-modified](https://github.com/v-JiangNan/ja-netfilter-modified)
+
+本项目仅在**Pycharm**上测试有效，其他IDE请自行测试。
+
+---
+
 ## ja-netfilter介绍
 ja-netfilter是由知了大佬开发的Java代理工具，可用于激活JetBrains系软件。
 
